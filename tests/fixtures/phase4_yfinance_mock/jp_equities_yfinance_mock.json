@@ -1,0 +1,247 @@
+{
+  "fixture_version": 1,
+  "fixture_type": "phase4_yfinance_mock",
+  "source_shape": "yfinance-inspired",
+  "records": [
+    {
+      "ticker": "7203.T",
+      "company_name": "Toyota Motor Corporation",
+      "exchange": "TYO",
+      "currency": "JPY",
+      "benchmark": "^N225",
+      "identity": {
+        "longName": "Toyota Motor Corporation",
+        "shortName": "Toyota Motor",
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Manufacturers",
+        "quoteType": "EQUITY"
+      },
+      "ohlcv_sample": [
+        {"date": "2026-06-22", "open": 3388.0, "high": 3424.0, "low": 3369.0, "close": 3412.0, "volume": 18324500},
+        {"date": "2026-06-23", "open": 3415.0, "high": 3452.0, "low": 3401.0, "close": 3446.0, "volume": 17690200},
+        {"date": "2026-06-24", "open": 3442.0, "high": 3460.0, "low": 3418.0, "close": 3430.0, "volume": 15488300}
+      ],
+      "fundamentals": {
+        "marketCap": 46200000000000,
+        "trailingPE": 11.8,
+        "priceToBook": 1.18,
+        "dividendYield": 0.026,
+        "beta": 0.74,
+        "fiftyTwoWeekHigh": 3588.0,
+        "fiftyTwoWeekLow": 2814.0,
+        "totalRevenue": 46700000000000,
+        "netIncomeToCommon": 4920000000000,
+        "debtToEquity": 132.0
+      },
+      "news_items": [
+        {
+          "title": "Toyota advances EV and hybrid production planning",
+          "publisher": "Yahoo Finance",
+          "summary": "Production planning and margin discipline remain in focus as Toyota balances EV investment with hybrid demand.",
+          "link": "https://example.mock/yf/toyota-1",
+          "published_at": "2026-06-24T01:30:00Z"
+        },
+        {
+          "title": "JPY moves and tariff headlines shape exporter outlook",
+          "publisher": "Yahoo Finance",
+          "summary": "Exporters including Toyota are discussed in the context of FX sensitivity and global trade policy headlines.",
+          "link": "https://example.mock/yf/toyota-2",
+          "published_at": "2026-06-23T04:10:00Z"
+        }
+      ],
+      "phase4_mock_note": "Use as a stand-in for JP auto/exporter scenarios with FX sensitivity."
+    },
+    {
+      "ticker": "6758.T",
+      "company_name": "Sony Group Corporation",
+      "exchange": "TYO",
+      "currency": "JPY",
+      "benchmark": "^N225",
+      "identity": {
+        "longName": "Sony Group Corporation",
+        "shortName": "Sony Group",
+        "sector": "Technology",
+        "industry": "Consumer Electronics",
+        "quoteType": "EQUITY"
+      },
+      "ohlcv_sample": [
+        {"date": "2026-06-22", "open": 15735.0, "high": 15920.0, "low": 15682.0, "close": 15888.0, "volume": 5328100},
+        {"date": "2026-06-23", "open": 15910.0, "high": 16040.0, "low": 15812.0, "close": 15986.0, "volume": 4982300},
+        {"date": "2026-06-24", "open": 15960.0, "high": 16110.0, "low": 15870.0, "close": 16072.0, "volume": 4875500}
+      ],
+      "fundamentals": {
+        "marketCap": 20100000000000,
+        "trailingPE": 18.1,
+        "priceToBook": 2.19,
+        "dividendYield": 0.008,
+        "beta": 0.86,
+        "fiftyTwoWeekHigh": 16490.0,
+        "fiftyTwoWeekLow": 12380.0,
+        "totalRevenue": 13600000000000,
+        "netIncomeToCommon": 1110000000000,
+        "debtToEquity": 29.0
+      },
+      "news_items": [
+        {
+          "title": "Sony gaming and image sensor outlook remains constructive",
+          "publisher": "Yahoo Finance",
+          "summary": "Coverage highlights balanced exposure to gaming, sensors, and entertainment earnings drivers.",
+          "link": "https://example.mock/yf/sony-1",
+          "published_at": "2026-06-24T03:20:00Z"
+        },
+        {
+          "title": "Analysts assess content mix and semiconductor demand for Sony",
+          "publisher": "Yahoo Finance",
+          "summary": "Commentary focuses on the resilience of recurring content revenue against semiconductor cycle noise.",
+          "link": "https://example.mock/yf/sony-2",
+          "published_at": "2026-06-22T22:15:00Z"
+        }
+      ],
+      "phase4_mock_note": "Useful for multi-segment tech and entertainment committee discussions."
+    },
+    {
+      "ticker": "9984.T",
+      "company_name": "SoftBank Group Corp.",
+      "exchange": "TYO",
+      "currency": "JPY",
+      "benchmark": "^N225",
+      "identity": {
+        "longName": "SoftBank Group Corp.",
+        "shortName": "SoftBank Group",
+        "sector": "Financial Services",
+        "industry": "Asset Management",
+        "quoteType": "EQUITY"
+      },
+      "ohlcv_sample": [
+        {"date": "2026-06-22", "open": 10240.0, "high": 10485.0, "low": 10188.0, "close": 10432.0, "volume": 12894400},
+        {"date": "2026-06-23", "open": 10410.0, "high": 10526.0, "low": 10344.0, "close": 10488.0, "volume": 11372100},
+        {"date": "2026-06-24", "open": 10466.0, "high": 10602.0, "low": 10390.0, "close": 10574.0, "volume": 11830300}
+      ],
+      "fundamentals": {
+        "marketCap": 15300000000000,
+        "trailingPE": 8.7,
+        "priceToBook": 1.03,
+        "dividendYield": 0.005,
+        "beta": 1.28,
+        "fiftyTwoWeekHigh": 10820.0,
+        "fiftyTwoWeekLow": 7218.0,
+        "totalRevenue": 7200000000000,
+        "netIncomeToCommon": 1820000000000,
+        "debtToEquity": 184.0
+      },
+      "news_items": [
+        {
+          "title": "SoftBank valuation discussion centers on listed assets and AI exposure",
+          "publisher": "Yahoo Finance",
+          "summary": "Articles emphasize discount-to-NAV, AI positioning, and leverage discipline.",
+          "link": "https://example.mock/yf/softbank-1",
+          "published_at": "2026-06-24T00:50:00Z"
+        },
+        {
+          "title": "Market watches SoftBank capital allocation signals",
+          "publisher": "Yahoo Finance",
+          "summary": "Coverage discusses buybacks, asset monetization, and exposure to volatile technology holdings.",
+          "link": "https://example.mock/yf/softbank-2",
+          "published_at": "2026-06-23T08:40:00Z"
+        }
+      ],
+      "phase4_mock_note": "Good for leverage, NAV-discount, and AI-theme risk committee cases."
+    },
+    {
+      "ticker": "8306.T",
+      "company_name": "Mitsubishi UFJ Financial Group, Inc.",
+      "exchange": "TYO",
+      "currency": "JPY",
+      "benchmark": "^N225",
+      "identity": {
+        "longName": "Mitsubishi UFJ Financial Group, Inc.",
+        "shortName": "MUFG",
+        "sector": "Financial Services",
+        "industry": "Banks - Diversified",
+        "quoteType": "EQUITY"
+      },
+      "ohlcv_sample": [
+        {"date": "2026-06-22", "open": 1978.0, "high": 2015.0, "low": 1960.0, "close": 2008.0, "volume": 36215500},
+        {"date": "2026-06-23", "open": 2004.0, "high": 2022.0, "low": 1984.0, "close": 1992.0, "volume": 34128600},
+        {"date": "2026-06-24", "open": 1996.0, "high": 2030.0, "low": 1988.0, "close": 2024.0, "volume": 33477400}
+      ],
+      "fundamentals": {
+        "marketCap": 24600000000000,
+        "trailingPE": 12.5,
+        "priceToBook": 1.01,
+        "dividendYield": 0.031,
+        "beta": 0.79,
+        "fiftyTwoWeekHigh": 2068.0,
+        "fiftyTwoWeekLow": 1456.0,
+        "totalRevenue": 11800000000000,
+        "netIncomeToCommon": 1680000000000,
+        "debtToEquity": 212.0
+      },
+      "news_items": [
+        {
+          "title": "MUFG outlook tied to BOJ normalization and loan spread trends",
+          "publisher": "Yahoo Finance",
+          "summary": "Bank earnings sensitivity to rates and credit cost normalization is in focus.",
+          "link": "https://example.mock/yf/mufg-1",
+          "published_at": "2026-06-24T02:05:00Z"
+        },
+        {
+          "title": "Financials react to long-end yield expectations in Japan",
+          "publisher": "Yahoo Finance",
+          "summary": "Coverage notes the relationship between JGB yield moves and large-bank earnings expectations.",
+          "link": "https://example.mock/yf/mufg-2",
+          "published_at": "2026-06-23T06:55:00Z"
+        }
+      ],
+      "phase4_mock_note": "Useful for BOJ, JGB, and bank-margin macro linkage scenarios."
+    },
+    {
+      "ticker": "7974.T",
+      "company_name": "Nintendo Co., Ltd.",
+      "exchange": "TYO",
+      "currency": "JPY",
+      "benchmark": "^N225",
+      "identity": {
+        "longName": "Nintendo Co., Ltd.",
+        "shortName": "Nintendo",
+        "sector": "Communication Services",
+        "industry": "Electronic Gaming & Multimedia",
+        "quoteType": "EQUITY"
+      },
+      "ohlcv_sample": [
+        {"date": "2026-06-22", "open": 11240.0, "high": 11406.0, "low": 11182.0, "close": 11384.0, "volume": 7218800},
+        {"date": "2026-06-23", "open": 11390.0, "high": 11520.0, "low": 11330.0, "close": 11478.0, "volume": 6891100},
+        {"date": "2026-06-24", "open": 11470.0, "high": 11610.0, "low": 11422.0, "close": 11588.0, "volume": 7012400}
+      ],
+      "fundamentals": {
+        "marketCap": 14600000000000,
+        "trailingPE": 21.9,
+        "priceToBook": 3.26,
+        "dividendYield": 0.011,
+        "beta": 0.61,
+        "fiftyTwoWeekHigh": 11890.0,
+        "fiftyTwoWeekLow": 7802.0,
+        "totalRevenue": 2100000000000,
+        "netIncomeToCommon": 478000000000,
+        "debtToEquity": 0.0
+      },
+      "news_items": [
+        {
+          "title": "Nintendo pipeline expectations support software momentum debate",
+          "publisher": "Yahoo Finance",
+          "summary": "Coverage focuses on release cadence, hardware lifecycle assumptions, and digital mix resilience.",
+          "link": "https://example.mock/yf/nintendo-1",
+          "published_at": "2026-06-24T05:45:00Z"
+        },
+        {
+          "title": "Analysts weigh hardware transition timing for Nintendo",
+          "publisher": "Yahoo Finance",
+          "summary": "Commentary highlights upside from new platform demand against execution risk around transition timing.",
+          "link": "https://example.mock/yf/nintendo-2",
+          "published_at": "2026-06-23T01:20:00Z"
+        }
+      ],
+      "phase4_mock_note": "Useful for consumer IP, hardware-cycle, and catalyst timing discussions."
+    }
+  ]
+}
